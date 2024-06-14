@@ -1,4 +1,4 @@
-package com.example.basiccalculator;
+package com.example.basiccalculatorapp;
 
 import android.os.Bundle;
 import android.view.View;
