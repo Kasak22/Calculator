@@ -6,10 +6,11 @@
     tools:context=".MainActivity"
     >
 
+
     <EditText
         android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
@@ -18,13 +19,22 @@
         android:gravity="end"
         android:inputType="none"
         android:textSize="24sp"
-        />
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Calculator"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:text="Calculator"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="80dp"
         android:columnCount="4"
         android:rowCount="5">
 
